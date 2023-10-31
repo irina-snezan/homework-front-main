@@ -9,7 +9,7 @@ type UserList2PropsType = {
 export const UserList2 = (props: UserList2PropsType) => {
 
 	const onClickHandler = () => {
-		props.filterUsers()
+		props.filterUsers() // дернули локальный стейт для перерисовки
 	}
 
 	return (
